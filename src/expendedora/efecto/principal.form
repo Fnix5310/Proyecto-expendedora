@@ -134,7 +134,7 @@
                   <Component id="btnvinos" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
                   <Component id="btnpulseras" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="336" max="32767" attributes="0"/>
+                  <EmptySpace pref="249" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -146,13 +146,19 @@
               <Font name="Tahoma" size="18" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/joyeria.png"/>
+              <Image iconType="3" name="/imagenesventanap/peque&#xf1;o joya.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Comprar pulseras a la ultima moda"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
             </Property>
             <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenesventanap/grande joya.png"/>
+            </Property>
+            <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenesventanap/grande joya.png"/>
+            </Property>
             <Property name="verticalTextPosition" type="int" value="1"/>
           </Properties>
           <Events>
@@ -165,13 +171,19 @@
               <Font name="Tahoma" size="18" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/perro.png"/>
+              <Image iconType="3" name="/imagenesventanap/peque&#xf1;o perro.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Comprar comida para mascotas"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
             </Property>
             <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenesventanap/grande perro.png"/>
+            </Property>
+            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenesventanap/grande perro.png"/>
+            </Property>
             <Property name="verticalTextPosition" type="int" value="1"/>
           </Properties>
           <Events>
@@ -184,13 +196,20 @@
               <Font name="Tahoma" size="18" style="1"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/banner-vino-plano_23-2148057972.png"/>
+              <Image iconType="3" name="/imagenesventanap/peque&#xf1;o vino.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Comprar vino de la mejor calidad"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
             </Property>
             <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="rolloverEnabled" type="boolean" value="true"/>
+            <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenesventanap/grande vino.png"/>
+            </Property>
+            <Property name="rolloverSelectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenesventanap/grande vino.png"/>
+            </Property>
             <Property name="verticalTextPosition" type="int" value="1"/>
           </Properties>
           <Events>

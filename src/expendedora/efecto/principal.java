@@ -81,10 +81,12 @@ public class principal extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(255, 102, 0));
 
         btnpulseras.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnpulseras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/joyeria.png"))); // NOI18N
+        btnpulseras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/pequeño joya.png"))); // NOI18N
         btnpulseras.setText("Comprar pulseras a la ultima moda");
         btnpulseras.setBorder(null);
         btnpulseras.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnpulseras.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/grande joya.png"))); // NOI18N
+        btnpulseras.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/grande joya.png"))); // NOI18N
         btnpulseras.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
         btnpulseras.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,10 +95,12 @@ public class principal extends javax.swing.JFrame {
         });
 
         btncomidaperro.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btncomidaperro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/perro.png"))); // NOI18N
+        btncomidaperro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/pequeño perro.png"))); // NOI18N
         btncomidaperro.setText("Comprar comida para mascotas");
         btncomidaperro.setBorder(null);
         btncomidaperro.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btncomidaperro.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/grande perro.png"))); // NOI18N
+        btncomidaperro.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/grande perro.png"))); // NOI18N
         btncomidaperro.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
         btncomidaperro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,10 +109,13 @@ public class principal extends javax.swing.JFrame {
         });
 
         btnvinos.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnvinos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/banner-vino-plano_23-2148057972.png"))); // NOI18N
+        btnvinos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/pequeño vino.png"))); // NOI18N
         btnvinos.setText("Comprar vino de la mejor calidad");
         btnvinos.setBorder(null);
         btnvinos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnvinos.setRolloverEnabled(true);
+        btnvinos.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/grande vino.png"))); // NOI18N
+        btnvinos.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenesventanap/grande vino.png"))); // NOI18N
         btnvinos.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
         btnvinos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,7 +144,7 @@ public class principal extends javax.swing.JFrame {
                 .addComponent(btnvinos)
                 .addGap(77, 77, 77)
                 .addComponent(btnpulseras)
-                .addContainerGap(336, Short.MAX_VALUE))
+                .addContainerGap(249, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 150, 550, 1160));
