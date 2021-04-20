@@ -39,7 +39,7 @@ public class creditos extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         btncerrar.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         btncerrar.setText("Cerrar");

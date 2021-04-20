@@ -15,8 +15,10 @@ public class ExpendedoraEfecto {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        login ini=new login();
+        ini.setVisible(true);
         principal v=new principal();
-        v.setVisible(true);
+        v.setVisible(false);
      //   Efecto.main(args);
     }
     
